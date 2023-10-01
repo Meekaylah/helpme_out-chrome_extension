@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const fullScreenSelect = document.querySelector(".full-screen");
   const currentTabSelect = document.querySelector(".current-tab");
   const closePopup = document.querySelector("#close");
-  let screen = "browser";
+  let screen = true;
   let hasAudio = true;
   
   // Add Event Listeners
